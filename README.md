@@ -1,8 +1,8 @@
-# Small service that aggregates event data for articles that are published in a web server.
+# Small service that aggregates event data for articles.
 
-### The input event data a bounded stream, in a format of Visit events, aggregating into hourly timeseries for each article.
-
-### The service is implemented using Apache Flink, taking advantage of the stateful operations and windowing functions.
+The input event data a bounded stream, in a format of Visit events,
+aggregating into hourly timeseries for each article.The service is implemented using Apache Flink,
+taking advantage of the stateful operations and windowing functions.
 
 ### Example output
 
