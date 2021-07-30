@@ -14,7 +14,6 @@ abstract class Queue[A] {
 }
 
 object Queue {
-
   def linesFromFile[T <: Visit](
     path: String,
     executionEnvironment: StreamExecutionEnvironment
